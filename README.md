@@ -41,7 +41,7 @@ For detailed instructions on installing node please follow this link for instruc
 
 Clone this repository into your local repository.
 
-git clone git@github.com:TheInfamousGrim/professional-README-generator-node-command-line.git.
+git clone git@github.com: git@github.com:mriya20/README-Generator.git
 Initialize an npm package by running:
 
 npm init
@@ -76,7 +76,6 @@ Features
 Use prompts in the command line to generate a readme section
 Email is validated using a RegEx
 GitHub username is validated using a RegEx
-Interacts with GitHub API to programmatically generate badges
 Credits
 🙏 Made with the help of:
 Gergia Tech University
