@@ -1,6 +1,6 @@
 
 # Project title
-![License: afl-3.0](https://img.shields.io/github/license/mriya20/README-Generator?color=yellow)
+![License: mit](https://img.shields.io/github/license/mriya20/README-Generator?color=yellow)
 ![Last Commit to Current Repo](https://img.shields.io/github/last-commit/mriya20/README-Generator)
 ![Commits a month](https://img.shields.io/github/commit-activity/m/mriya20/README-Generator)
 What your project is about.
@@ -40,8 +40,8 @@ Some tests here.
 🙏 Made with the help of:
 My fantastic contributors, I love them
 ## License
-![License: afl-3.0](https://img.shields.io/github/license/mriya20/README-Generator?color=yellow)
-[afl-3.0](/LICENSE)
+![License: mit](https://img.shields.io/github/license/mriya20/README-Generator?color=yellow)
+[mit](/LICENSE)
 ## Questions
 ![Ask Me Anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 mriya20"
