@@ -1,123 +1,102 @@
-# 09 Node.js Challenge: Professional README Generator
+README-Generator
 
-## Your Task
+A README.md generator that is used via the command line to help rapidly construct quality README files
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+Table of Contents 📃
+Description
+Usage
+Technology
+Features
+Credits
+License
+Contribution Guidelines
+Feedback
+Description
+The purpose of this CLI application is to help a developer to quickly generate a README.md template that they can then update at a later date manually.
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+Rather than having a dev simply copy and paste a template over from a saved template they might have on github, they can install this application to their local repository.
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+They then run the application, fill in some prompts and hesto presto the README template is there ready to be edited.
 
-The application will be invoked by using the following command:
+User Story 👤
+AS A developer I WANT a README generator SO THAT I can quickly create a professional README for a new project
 
-```bash
-node index.js
-```
+What did I Learn 🏫
+One of the lessons I took away from this project was the importance of splitting up helper functions into utilities, exporting these functions and importing them into js files that I need them in.
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
+I was already familiar with using npm to install packages and had used node before to run javascript files before.
 
+Other things I learned:
 
-## User Story
+Developed my understanding of how to use asynchronous functions in JavaScript
+Deepened my knowledge on how to use badges for GitHub README files
+Installation
+In order to generate your own README.md, and simplify your life, follow these steps.
 
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
+Ensure that you have node installed
 
-## Acceptance Criteria
+Download Node
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+For detailed instructions on installing node please follow this link for instructions
 
-## Getting Started
+Clone this repository into your local repository.
 
-Here are some guidelines to help you get started:
+git clone git@github.com:TheInfamousGrim/professional-README-generator-node-command-line.git.
+Initialize an npm package by running:
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+npm init
+Install the dependencies to your package.json
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+npm i axios inquirer
+After following these steps you're all set and ready to generate a plethora of README files from the CLI.
 
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+Feel free to write any npm scripts to automate the steps even further.
 
-* Refer to the [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
+Usage
+For a video of how to use the application please follow this link
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+Written instructions:
 
-## Grading Requirements
+Initialize a remote repository on GitHub (So that you can link to the remote repository)
+run the application with node index.js
+Follow the prompts and make sure to input information correctly
+After choosing the license the README is generated for you 🙌
+Technology
+The technology used for the development of this app was:
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+JavaScript
 
-This Challenge is graded based on the following criteria: 
+Node.js
 
-### Deliverables: 20%
-
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Walkthrough Video: 27%
-
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
+packages:
 
 
-## Review
+inquirer
+Features
+Use prompts in the command line to generate a readme section
+Email is validated using a RegEx
+GitHub username is validated using a RegEx
+Interacts with GitHub API to programmatically generate badges
+Credits
+🙏 Made with the help of:
+Gergia Tech University
 
-You are required to submit the following for review:
+License
+License: MIT
 
-* A walkthrough video demonstrating the functionality of the application.
+MIT License
 
-* A sample README.md file for a project repository generated using your application
+Contribution Guidelines
+I'm open to have anyone jump in and contribute just email to me
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+Guidelines for contributing
 
----
+Feedback
+Ask Me Anything Gmail
+(https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Mriya20
+
+Any feedback please email Anastasia Markova
+
+GitHub: Mriya20
