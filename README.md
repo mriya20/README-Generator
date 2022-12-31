@@ -41,7 +41,7 @@ For detailed instructions on installing node please follow this link for instruc
 
 Clone this repository into your local repository.
 
-git clone git@github.com: git@github.com:mriya20/README-Generator.git
+git clone git@github.com: git@github.com/mriya20/README-Generator.git
 Initialize an npm package by running:
 
 npm init
@@ -89,10 +89,11 @@ Contribution Guidelines
 I'm open to have anyone jump in and contribute just email to me
 
 Guidelines for contributing
+(https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 Feedback
-Ask Me Anything Gmail
-(https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+Ask Me Anything Gmail anastasia19markova@gmail.com
+
 
 Mriya20
 
