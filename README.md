@@ -38,7 +38,7 @@ Other things I learned:
 
 - Developed my understanding of how to use asynchronous functions in JavaScript
 - Deepened my knowledge on how to use badges for GitHub README files
-- Deepened my knowledge on how to use badges for GitHub README files
+
 
 ## Installation
 
@@ -66,7 +66,7 @@ After following these steps you're all set and ready to generate a plethora of R
 Feel free to write any npm scripts to automate the steps even further.
 
 ## Usage
-For a video of how to use the application please follow this link
+For a video of how to use the application please follow this link [this link](https://www.awesomescreenshot.com/video/13799199?key=a237c6fadcd45076474ddb26139bb6f4)
 
 Written instructions:
 
